@@ -31,7 +31,7 @@ jobs:
   merge:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/github-script@v7
+      - uses: actions/github-script@v8
         env:
           OWNER: ${{ inputs.owner }}
           DRY_RUN: ${{ inputs.dry_run }}
